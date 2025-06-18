@@ -5,7 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
-# Tibor Simko <tibor.simko@cern.ch>, 2025
+# Minjae Kwon, 2023
 # 
 #, fuzzy
 msgid ""
@@ -14,18 +14,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2025-03-26 16:16+0000\n"
 "PO-Revision-Date: 2022-10-12 07:22+0000\n"
-"Last-Translator: Tibor Simko <tibor.simko@cern.ch>, 2025\n"
-"Language-Team: Persian (https://app.transifex.com/inveniosoftware/teams/23537/fa/)\n"
+"Last-Translator: Minjae Kwon, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/inveniosoftware/teams/23537/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
-"Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: invenio_administration/admin.py:55
 msgid "Administration"
-msgstr "مدیریت"
+msgstr ""
 
 #: invenio_administration/errors.py:22
 #, python-brace-format
@@ -35,7 +35,7 @@ msgstr ""
 #: invenio_administration/errors.py:36
 #, python-brace-format
 msgid "No extension found with name '{extension_name}' ."
-msgstr ""
+msgstr "이름으로('{extension_name}') 확장 기능을 찾을 수 없습니다. "
 
 #: invenio_administration/errors.py:48
 msgid "Invalid actions configuration, order or schema missing"
@@ -72,7 +72,7 @@ msgstr ""
 #: invenio_administration/menu/menu.py:82
 #, python-format
 msgid "%(icon)s Administration"
-msgstr ""
+msgstr "%(icon)s 관리"
 
 #: invenio_administration/menu/menu.py:94
 msgid "Item should be MenuItem instance."
@@ -80,27 +80,27 @@ msgstr ""
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/base.html:26
 msgid "Side menu"
-msgstr ""
+msgstr "사이드 메뉴"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/index.html:17
 msgid "Welcome to InvenioRDM Administration"
-msgstr ""
+msgstr "InvenioRDM 관리 페이지에 오셨습니다."
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/index.html:29
 msgid "Welcome to Invenio Administration"
-msgstr ""
+msgstr "Invenio 관리 페이지에 오셨습니다."
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/index.html:30
 msgid "My managment tool"
-msgstr ""
+msgstr "내 관리 도구"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/macros.html:14
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/search.html:26
 msgid "Create"
-msgstr ""
+msgstr "만들기"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:17
 msgid "Home navigation"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:43
 msgid "Menu"
-msgstr "فهرست"
+msgstr ""
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:61
 msgid "Close menu"
@@ -120,21 +120,21 @@ msgstr ""
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:70
 msgid "Administration dashboard"
-msgstr ""
+msgstr "관리 대시보드"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:72
 #: invenio_administration/views/dashboard.py:24
 #: invenio_administration/views/dashboard.py:25
 msgid "Dashboard"
-msgstr ""
+msgstr "대시보드"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:17
 msgid "Log in"
-msgstr ""
+msgstr "로그인"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:21
 msgid "Sign up"
-msgstr ""
+msgstr "가입"
 
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:34
 #: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:75

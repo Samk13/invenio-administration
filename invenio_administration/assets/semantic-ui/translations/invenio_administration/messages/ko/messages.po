@@ -1,18 +1,18 @@
 # 
 # Translators:
-# Tibor Simko <tibor.simko@cern.ch>, 2024
+# Minjae Kwon, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "POT-Creation-Date: 2025-03-26T16:16:11.725Z\n"
 "PO-Revision-Date: 2022-10-12 07:22+0000\n"
-"Last-Translator: Tibor Simko <tibor.simko@cern.ch>, 2024\n"
-"Language-Team: Greek (https://app.transifex.com/inveniosoftware/teams/23537/el/)\n"
+"Last-Translator: Minjae Kwon, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/inveniosoftware/teams/23537/ko/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "mime-version: 1.0\n"
 
 msgid "Open list of actions"
@@ -22,10 +22,10 @@ msgid "Resource is not deletable."
 msgstr ""
 
 msgid "Cancel"
-msgstr "Ακύρωση"
+msgstr ""
 
 msgid "Delete"
-msgstr "Διαγραφή"
+msgstr ""
 
 msgid "Delete {{title}}"
 msgstr ""
@@ -34,22 +34,22 @@ msgid "Are you sure you want to delete {{resourceName}}? "
 msgstr ""
 
 msgid "Edit"
-msgstr "Επεξεργασία"
+msgstr ""
 
 msgid "Resource is not editable."
 msgstr ""
 
 msgid "Error"
-msgstr "Σφάλμα"
+msgstr ""
 
 msgid "Server was not able to process your request."
 msgstr ""
 
 msgid "Save"
-msgstr "Αποθήκευση"
+msgstr ""
 
 msgid "Add"
-msgstr "Προσθήκη"
+msgstr ""
 
 msgid "Remove field"
 msgstr ""
@@ -58,7 +58,7 @@ msgid "Sort"
 msgstr ""
 
 msgid "Search"
-msgstr "Αναζήτηση"
+msgstr "검색"
 
 msgid "Search ..."
 msgstr ""
@@ -75,15 +75,13 @@ msgstr ""
 msgid "{{count}} results found"
 msgid_plural "{{count}} results found"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid " results per page"
 msgid_plural " results per page"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "Actions"
-msgstr "Ενέργειες"
+msgstr ""
 
 msgid "Success"
 msgstr ""
