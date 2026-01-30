@@ -1,6 +1,6 @@
 ..
     Copyright (C) 2022-2024 CERN.
-    Copyright (C) 2024-2025 Graz University of Technology.
+    Copyright (C) 2024-2026 Graz University of Technology.
     Copyright (C) 2024-2025 KTH Royal Institute of Technology.
     Copyright (C) 2025 Northwestern University.
 
@@ -10,6 +10,11 @@
 
 Changes
 =======
+
+Version v5.0.0 (released 2026-01-30)
+
+- chore(black): update formatting to >= 26.0
+- chore(setup): bump dependencies
 
 Version v4.4.0 (released 2026-01-15)
 
