@@ -7,6 +7,7 @@
 # under the terms of the MIT License; see LICENSE file for more details.
 
 """Invenio administration marshmallow utils module."""
+
 import marshmallow
 from invenio_i18n import lazy_gettext as _
 from marshmallow import fields

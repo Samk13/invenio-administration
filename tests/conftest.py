@@ -12,6 +12,7 @@
 See https://pytest-invenio.readthedocs.io/ for documentation on which test
 fixtures are available.
 """
+
 from collections import namedtuple
 
 import pytest
