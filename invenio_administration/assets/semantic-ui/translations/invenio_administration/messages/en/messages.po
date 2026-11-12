@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2025-07-01T19:44:59.051Z\n"
-"PO-Revision-Date: 2025-07-01T19:44:59.051Z\n"
+"POT-Creation-Date: 2026-11-12T09:26:14.247Z\n"
+"PO-Revision-Date: 2026-11-12T09:26:14.248Z\n"
 "Language: en\n"
 
 msgid "Open list of actions"
@@ -75,9 +75,6 @@ msgstr "Search"
 msgid "Search ..."
 msgstr "Search ..."
 
-msgid "There is no resources in this category."
-msgstr "There is no resources in this category."
-
 msgid "No matching resources found."
 msgstr "No matching resources found."
 
@@ -97,3 +94,6 @@ msgstr "results per page"
 
 msgid "Actions"
 msgstr "Actions"
+
+msgid "There are no resources in this category."
+msgstr "There are no resources in this category."

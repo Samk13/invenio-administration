@@ -21,12 +21,12 @@
   "Sort": "Sort",
   "Search": "Search",
   "Search ...": "Search ...",
-  "There is no resources in this category.": "There is no resources in this category.",
   "No matching resources found.": "No matching resources found.",
   "Current search": "Current search",
   "Clear query": "Clear query",
-  "{{count}} results found": "{{count}} results found",
-  "{{count}} results found_plural": "{{count}} results found",
+  "{{count}} results found_one": "{{count}} results found",
+  "{{count}} results found_other": "{{count}} results found",
   "results per page": "results per page",
-  "Actions": "Actions"
+  "Actions": "Actions",
+  "There are no resources in this category.": "There are no resources in this category."
 }
