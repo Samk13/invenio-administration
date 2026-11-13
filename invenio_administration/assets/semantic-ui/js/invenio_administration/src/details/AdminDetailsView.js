@@ -25,7 +25,7 @@ const AdminDetailsView = ({
   requestHeaders,
   uiSchema,
   name,
-  children = undefined,
+  children,
 }) => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(undefined);
@@ -39,9 +39,9 @@ const AdminDetailsView = ({
         pid,
         requestHeaders
       );
-      setLoading(false);
       setData(response.data);
       setError(undefined);
+      setLoading(false);
     } catch (e) {
       console.error(e);
       setError(e);
@@ -53,17 +53,10 @@ const AdminDetailsView = ({
     fetchData();
   }, [fetchData]);
 
-  const childrenWithData = useCallback(
-    (data, columns) => {
-      return children.map((child) => {
-        if (isValidElement(child)) {
-          return cloneElement(child, { data: data, columns: columns });
-        }
-        return child;
-      });
-    },
-    [children]
-  );
+  const childWithData =
+    isValidElement(children) && data !== undefined
+      ? cloneElement(children, { data: data, columns: columns })
+      : null;
 
   const handleDelete = useCallback(() => {
     // after deleting the resource go back to the list view
@@ -96,8 +89,8 @@ const AdminDetailsView = ({
       <Loader isLoading={loading}>
         <ErrorPage
           error={!_isEmpty(error)}
-          errorCode={error?.response.status}
-          errorMessage={error?.response.data}
+          errorCode={error?.response?.status}
+          errorMessage={error?.response?.data}
         >
           <Grid stackable>
             <Grid.Row columns="2">
@@ -110,7 +103,11 @@ const AdminDetailsView = ({
                     title={title}
                     resourceName={resourceName}
                     apiEndpoint={apiEndpoint}
-                    editUrl={AdminUIRoutes.editView(listUIEndpoint, data, idKeyPath)}
+                    editUrl={
+                      data
+                        ? AdminUIRoutes.editView(listUIEndpoint, data, idKeyPath)
+                        : undefined
+                    }
                     actions={actions}
                     displayEdit={displayEdit}
                     displayDelete={displayDelete}
@@ -130,7 +127,7 @@ const AdminDetailsView = ({
               schema={resourceSchema}
               uiSchema={sortedColumns}
             />
-            {childrenWithData(data, columns)}
+            {childWithData}
           </Container>
         </ErrorPage>
       </Loader>
@@ -146,7 +143,7 @@ AdminDetailsView.propTypes = {
   displayDelete: PropTypes.bool.isRequired,
   pid: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  children: PropTypes.object,
+  children: PropTypes.node,
   resourceName: PropTypes.string.isRequired,
   idKeyPath: PropTypes.string.isRequired,
   listUIEndpoint: PropTypes.string.isRequired,

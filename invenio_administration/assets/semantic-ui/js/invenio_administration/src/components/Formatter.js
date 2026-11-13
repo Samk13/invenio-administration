@@ -25,7 +25,11 @@ const Formatter = ({
 
   const type = _get(resourceSchema, typePath);
   const Element = _get(elementTypeMap, type);
-  let value = _get(result, property, null);
+  const value = _get(result, property, null);
+
+  if (value === null || value === undefined) {
+    return null;
+  }
 
   if (fieldSchema?.escape) {
     return <div dangerouslySetInnerHTML={{ __html: value }} />;

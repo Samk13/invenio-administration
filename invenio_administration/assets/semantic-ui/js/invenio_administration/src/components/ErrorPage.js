@@ -7,7 +7,7 @@ const ErrorPage = ({
   errorCode = i18next.t("Error"),
   errorMessage = i18next.t("Server was not able to process your request."),
   error = false,
-  children = undefined,
+  children,
 }) => {
   return (
     <Overridable
@@ -36,7 +36,7 @@ ErrorPage.propTypes = {
   errorCode: PropTypes.string,
   errorMessage: PropTypes.string,
   error: PropTypes.bool,
-  children: PropTypes.element,
+  children: PropTypes.node,
 };
 
 export default Overridable.component("ErrorPage", ErrorPage);

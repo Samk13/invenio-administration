@@ -28,7 +28,10 @@ const uiSchema = JSON.parse(domContainer.dataset?.uiConfig);
 const name = domContainer.dataset?.name;
 
 if (domContainer) {
-  const root = createRoot(domContainer);
+  if (!domContainer._invenioReactRoot) {
+    domContainer._invenioReactRoot = createRoot(domContainer);
+  }
+  const root = domContainer._invenioReactRoot;
   root.render(
     <OverridableContext.Provider value={overriddenComponents}>
       <AdminDetailsView

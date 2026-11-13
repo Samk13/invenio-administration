@@ -52,8 +52,8 @@ export const EditPage = ({
     <Loader isLoading={loading}>
       <ErrorPage
         error={!_isEmpty(error)}
-        errorCode={error?.response.status}
-        errorMessage={error?.response.data}
+        errorCode={error?.response?.status}
+        errorMessage={error?.response?.data}
       >
         <Grid>
           <Grid.Column width={12}>

@@ -16,7 +16,7 @@ import _get from "lodash/get";
 export function Actions({
   title,
   resourceName,
-  actions,
+  actions = {},
   resource,
   successCallback,
   idKeyPath = "pid",
@@ -28,7 +28,7 @@ export function Actions({
   // if number of actions is greater than 3, we display all in a dropdown
   const _displayAsDropdown =
     displayAsDropdown ||
-    (displayEdit && displayDelete && Object.keys(actions).length > 1);
+    (displayEdit && displayDelete && actions && Object.keys(actions).length > 1);
 
   if (_displayAsDropdown) {
     return (
