@@ -1,8 +1,10 @@
 /*
  * SPDX-FileCopyrightText: 2022-2024 CERN.
+ * SPDX-FileCopyrightText: 2026 KTH Royal Institute of Technology.
  * SPDX-License-Identifier: MIT
  */
 
+import { Trans } from "react-i18next";
 import { Grid } from "semantic-ui-react";
 import { ResultsList, Pagination, ResultsPerPage, Count } from "react-searchkit";
 import { i18next } from "@translations/invenio_administration/i18next";
@@ -54,9 +56,11 @@ export const SearchResults = ({ paginationOptions, currentResultsState }) => {
             <ResultsPerPage
               values={paginationOptions.resultsPerPage}
               label={(cmp) => (
-                <>
-                  {cmp} {i18next.t("results per page")}
-                </>
+                <Trans
+                  i18n={i18next}
+                  defaults={"<pageSize/> results per page"}
+                  components={{ pageSize: cmp }}
+                />
               )}
             />
           </Grid.Column>

@@ -20,3 +20,7 @@ function assertExtractedMessage(filename, message) {
 test("extract SearchEmptyResults messages", () => {
   assertExtractedMessage("invenio_administration/src/search/SearchEmptyResults.js", "Current search \"{{query}}\"");
 });
+
+test("extract SearchResults messages", () => {
+  assertExtractedMessage("invenio_administration/src/search/SearchResults.js", "<pageSize/> results per page");
+});
