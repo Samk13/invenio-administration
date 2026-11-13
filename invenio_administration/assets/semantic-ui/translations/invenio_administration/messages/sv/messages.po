@@ -106,3 +106,9 @@ msgstr "resultat per sida"
 
 msgid "Actions"
 msgstr "Åtgärder"
+
+msgid "<pageSize/> results per page"
+msgstr "<pageSize/> resultat per sida"
+
+msgid "Current search \"{{query}}\""
+msgstr "Nuvarande sökning \"{{query}}\""
