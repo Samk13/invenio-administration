@@ -1,6 +1,7 @@
 /*
  * SPDX-FileCopyrightText: 2022 CERN.
  * SPDX-FileCopyrightText: 2024 KTH Royal Institute of Technology.
+ * SPDX-FileCopyrightText: 2026 KTH Royal Institute of Technology.
  * SPDX-License-Identifier: MIT
  */
 
@@ -28,9 +29,7 @@ const SearchEmptyResults = ({
         {isEmptyPageAfterSearch && i18next.t("No matching resources found.")}
       </Header>
       {queryString && (
-        <em>
-          {i18next.t("Current search")} "{queryString}"
-        </em>
+        <em>{i18next.t('Current search "{{query}}"', { query: queryString })}</em>
       )}
       <br />
       {isEmptyPageAfterSearch && (
