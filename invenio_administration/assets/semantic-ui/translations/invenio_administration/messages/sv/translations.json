@@ -29,5 +29,7 @@
   "Invalid JSON format": "Ogiltigt JSON-format",
   "Your changes were successfully submitted": "Dina ändringar har skickats in",
   "Form error": "Formulärsfel",
-  "Current search": "Nuvarande sökning"
+  "Current search": "Nuvarande sökning",
+  "<pageSize/> results per page": "<pageSize/> resultat per sida",
+  "Current search \"{{query}}\"": "Nuvarande sökning \"{{query}}\""
 }

@@ -23,10 +23,10 @@
   "Search ...": "Search ...",
   "There is no resources in this category.": "There is no resources in this category.",
   "No matching resources found.": "No matching resources found.",
-  "Current search": "Current search",
   "Clear query": "Clear query",
   "{{count}} results found": "{{count}} results found",
   "{{count}} results found_plural": "{{count}} results found",
-  "results per page": "results per page",
-  "Actions": "Actions"
+  "Actions": "Actions",
+  "Current search \"{{query}}\"": "Current search \"{{query}}\"",
+  "<pageSize/> results per page": "<pageSize/> results per page"
 }

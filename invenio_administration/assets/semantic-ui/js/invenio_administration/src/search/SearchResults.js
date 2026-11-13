@@ -58,7 +58,7 @@ export const SearchResults = ({ paginationOptions, currentResultsState }) => {
               label={(cmp) => (
                 <Trans
                   i18n={i18next}
-                  defaults={"<pageSize/> results per page"}
+                  defaults="<pageSize/> results per page"
                   components={{ pageSize: cmp }}
                 />
               )}
