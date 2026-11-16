@@ -9,6 +9,10 @@
 Changes
 =======
 
+Version v8.0.1 (released 2026-11-16)
+
+- fix: react 18 render issue on admin details view
+
 Version v8.0.0 (released 2026-11-10)
 
 - chore(setup): bump dependencies
