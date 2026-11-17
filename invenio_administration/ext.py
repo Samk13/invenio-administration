@@ -60,10 +60,11 @@ class InvenioAdministration:
     def register_view(self, view_class, extension_name, app, *args, **kwargs):
         """Register an admin view on this admin instance.
 
-        :param view_class: The view class name passed to the view factory.
-        :param extension_name: The name of the extension associated with the view.
-        :param args: Positional arguments for view class.
-        :param kwargs: Keyword arguments to view class.
+        Args:
+            view_class: The view class name passed to the view factory.
+            extension_name: The name of the extension associated with the view.
+            args: Positional arguments for view class.
+            kwargs: Keyword arguments to view class.
         """
         view_instance = view_class(
             extension_name=extension_name, admin=self.administration, *args, **kwargs
@@ -93,7 +94,8 @@ class InvenioAdministration:
     def init_config(app):
         """Initialize configuration.
 
-        :param app: The Flask application.
+        Args:
+            app: The Flask application.
         """
         # Set default configuration
         for k in dir(config):

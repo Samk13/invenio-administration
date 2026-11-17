@@ -5,7 +5,7 @@
 
 ADMINISTRATION_BASE_TEMPLATE = "invenio_administration/base.html"
 """Admin panel base template.
-By default (``None``) uses the Flask-Admin template."""
+By default (`None`) uses the Flask-Admin template."""
 
 ADMINISTRATION_APPNAME = "Invenio-Administration"
 """Name of the Flask-Admin app (also the page title of admin panel)."""

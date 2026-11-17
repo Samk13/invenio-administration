@@ -15,9 +15,11 @@ administration_view_permission = Permission(administration_view_action)
 and access to the administration dashboard.
 
 Grant this action to any role that should be able to reach the admin panel,
-without necessarily granting full ``administration-access`` to every admin view:
+without necessarily granting full `administration-access` to every admin view:
 
-    invenio access allow admin-view role <role-name>
+```console
+invenio access allow admin-view role <role-name>
+```
 """
 
 administration_dashboard_permission = Permission(
@@ -25,6 +27,6 @@ administration_dashboard_permission = Permission(
 )
 """Compound permission for the admin dashboard and profile menu entry.
 
-Grants access to users with either ``admin-view`` or ``administration-access``,
+Grants access to users with either `admin-view` or `administration-access`,
 preserving backwards compatibility.
 """

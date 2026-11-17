@@ -29,15 +29,16 @@ class Administration:
     ):
         """Constructor.
 
-        :param app: flask application
-        :param name: application name, defaults to "Admin"
-        :param url: base admin url to register the dashboard view and subviews
-        :param dashboard_view: home page view
-        :param ui_endpoint: base UI endpoint,
-                     leaves flexibility to implement two different admin apps,
-                     or to provide custom endpoint
-        :param base_template: base admin template.
-                     Defaults to "admin/base.html"
+        Args:
+            app: flask application
+            name: application name, defaults to "Admin"
+            url: base admin url to register the dashboard view and subviews
+            dashboard_view: home page view
+            ui_endpoint: base UI endpoint,
+                leaves flexibility to implement two different admin apps,
+                or to provide custom endpoint
+            base_template: base admin template.
+                Defaults to "admin/base.html"
         """
         super().__init__()
 

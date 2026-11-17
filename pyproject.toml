@@ -8,7 +8,7 @@
 [project]
 name = "invenio-administration"
 description = "Invenio module that adds administration panel to the system."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
 authors = [
@@ -76,7 +76,6 @@ tests = [
   "invenio-app>=3.0.0,<4.0.0",
   "pytest-black>=0.6.0",
   "pytest-invenio>=4.0.0,<5.0.0",
-  "sphinx>=4.5",
 ]
 
 [build-system]
@@ -136,7 +135,7 @@ profile = "black"
 add_ignore = "D401"
 
 [tool.pytest.ini_options]
-addopts = '--black --isort --pydocstyle --doctest-glob="*.rst" --doctest-modules --cov=invenio_administration --cov-report=term-missing'
+addopts = '--black --isort --pydocstyle --doctest-modules --cov=invenio_administration --cov-report=term-missing'
 filterwarnings = ["ignore::pytest.PytestDeprecationWarning"]
 testpaths = "tests invenio_administration"
 live_server_scope = "module"
