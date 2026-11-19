@@ -28,5 +28,7 @@
   "{{count}} results found_one": "{{count}} resultat hittades",
   "{{count}} results found_other": "{{count}} resultat hittades",
   "results per page": "resultat per sida",
-  "Actions": "Åtgärder"
+  "Actions": "Åtgärder",
+  "<pageSize/> results per page": "<pageSize/> resultat per sida",
+  "Current search \"{{query}}\"": "Nuvarande sökning \"{{query}}\""
 }

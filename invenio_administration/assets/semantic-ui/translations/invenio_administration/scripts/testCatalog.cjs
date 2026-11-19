@@ -9,6 +9,8 @@ const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 const test = require("node:test");
 const i18next = require("i18next");
+const { Parser } = require("i18next-scanner");
+const { options } = require("../i18next-scanner.config.js");
 
 const source = `msgid ""
 msgstr ""
@@ -77,4 +79,21 @@ test("compile reviewed entries and v4 plurals; fall back for fuzzy entries", asy
   } finally {
     fs.rmSync(directory, { recursive: true, force: true });
   }
+});
+
+function assertExtractedMessage(filename, message) {
+  const sourceRoot = path.resolve(__dirname, "../../../js");
+  const parser = new Parser({ ...options, debug: false });
+  const source = fs.readFileSync(path.join(sourceRoot, filename), "utf8");
+  parser.parseFuncFromString(source);
+  parser.parseTransFromString(source);
+  assert.equal(parser.get().en.translations[message], message);
+}
+
+test("extract SearchEmptyResults messages", () => {
+  assertExtractedMessage("invenio_administration/src/search/SearchEmptyResults.js", "Current search \"{{query}}\"");
+});
+
+test("extract SearchResults messages", () => {
+  assertExtractedMessage("invenio_administration/src/search/SearchResults.js", "<pageSize/> results per page");
 });
