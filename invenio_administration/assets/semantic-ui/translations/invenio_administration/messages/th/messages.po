@@ -1,0 +1,103 @@
+# Translators:
+# Suthep Yonphimai <tomztt@gmail.com>, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2026-06-22T20:44:31.114Z\n"
+"PO-Revision-Date: 2022-10-12 07:22+0000\n"
+"Last-Translator: Suthep Yonphimai <tomztt@gmail.com>, 2026\n"
+"Language-Team: Thai (https://app.transifex.com/inveniosoftware/teams/23537/th/)\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"mime-version: 1.0\n"
+
+msgid "Open list of actions"
+msgstr "เปิดรายการการดำเนินการ"
+
+msgid "Resource is not deletable."
+msgstr "ทรัพยากรนี้ไม่สามารถลบได้"
+
+msgid "Success"
+msgstr "สำเร็จ"
+
+msgid "Resource was successfully deleted."
+msgstr "ลบทรัพยากรสำเร็จแล้ว"
+
+msgid "Action error"
+msgstr "ข้อผิดพลาดในการดำเนินการ"
+
+msgid "Delete {{title}}"
+msgstr "ลบ {{title}}"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Are you sure you want to delete {{resourceName}}?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบ {{resourceName}}?"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "Resource is not editable."
+msgstr "ทรัพยากรนี้ไม่สามารถแก้ไขได้"
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid "Server was not able to process your request."
+msgstr "เซิร์ฟเวอร์ไม่สามารถประมวลผลคำขอของคุณได้"
+
+msgid "Invalid JSON format"
+msgstr "รูปแบบ JSON ไม่ถูกต้อง"
+
+msgid "Your changes were successfully submitted"
+msgstr "ส่งการเปลี่ยนแปลงของคุณสำเร็จแล้ว"
+
+msgid "Form error"
+msgstr "ข้อผิดพลาดในแบบฟอร์ม"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Add"
+msgstr "เพิ่ม"
+
+msgid "Remove field"
+msgstr "ลบฟิลด์"
+
+msgid "Sort"
+msgstr "จัดเรียง"
+
+msgid "Search"
+msgstr "ค้นหา"
+
+msgid "Search ..."
+msgstr "ค้นหา ..."
+
+msgid "No matching resources found."
+msgstr "ไม่พบทรัพยากรที่ตรงกัน"
+
+msgid "Current search"
+msgstr "การค้นหาปัจจุบัน"
+
+msgid "Clear query"
+msgstr "ล้างคำค้นหา"
+
+msgid "{{count}} results found"
+msgid_plural "{{count}} results found"
+msgstr[0] "พบผลลัพธ์ {{count}} รายการ"
+
+msgid "results per page"
+msgstr "ผลลัพธ์ต่อหน้า"
+
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+msgid "There are no resources in this category."
+msgstr "ไม่มีทรัพยากรในหมวดหมู่นี้"
