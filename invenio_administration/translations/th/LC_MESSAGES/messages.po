@@ -1,0 +1,163 @@
+# Translations template for invenio-administration.
+# Copyright (C) 2026 CERN
+# This file is distributed under the same license as the
+# invenio-administration project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+# 
+# Translators:
+# Suthep Yonphimai <tomztt@gmail.com>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: invenio-administration 6.0.1\n"
+"Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
+"POT-Creation-Date: 2026-06-22 20:44+0000\n"
+"PO-Revision-Date: 2022-10-12 07:22+0000\n"
+"Last-Translator: Suthep Yonphimai <tomztt@gmail.com>, 2026\n"
+"Language-Team: Thai (https://app.transifex.com/inveniosoftware/teams/23537/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: invenio_administration/admin.py:50
+msgid "Administration"
+msgstr "การบริหารจัดการ"
+
+#: invenio_administration/errors.py:17
+#, python-brace-format
+msgid "Invalid resource {resource} configured for view {view}."
+msgstr "ทรัพยากร {resource} ที่กำหนดค่าสำหรับ view {view} ไม่ถูกต้อง"
+
+#: invenio_administration/errors.py:31
+#, python-brace-format
+msgid "No extension found with name '{extension_name}' ."
+msgstr "ไม่พบส่วนขยายที่มีชื่อ '{extension_name}'"
+
+#: invenio_administration/errors.py:43
+msgid "Invalid actions configuration, order or schema missing"
+msgstr "การกำหนดค่า actions ไม่ถูกต้อง ลำดับหรือ schema หายไป"
+
+#: invenio_administration/errors.py:53
+#, python-brace-format
+msgid "Cannot instantiate resource view {name} without a resource."
+msgstr "ไม่สามารถสร้าง resource view {name} โดยไม่มี resource"
+
+#: invenio_administration/errors.py:67
+#, python-brace-format
+msgid ""
+"Cannot instantiate resource view {name} without an associated flask "
+"extension."
+msgstr ""
+"ไม่สามารถสร้าง resource view {name} โดยไม่มี flask extension ที่เชื่อมโยง"
+
+#: invenio_administration/errors.py:80
+#, python-brace-format
+msgid ""
+"Cannot instantiate administration view {name} without a default GET view"
+msgstr "ไม่สามารถสร้าง administration view {name} โดยไม่มี GET view เริ่มต้น"
+
+#: invenio_administration/marshmallow_utils.py:65
+#, python-format
+msgid "Unrecognized field type: %(field_type)s"
+msgstr "ประเภทฟิลด์ไม่รู้จัก: %(field_type)s"
+
+#: invenio_administration/marshmallow_utils.py:162
+#, python-format
+msgid "Unrecognised schema field %(field)s: %(field_type_name)s"
+msgstr "ฟิลด์ schema ไม่รู้จัก %(field)s: %(field_type_name)s"
+
+#: invenio_administration/menu/menu.py:112
+#, python-format
+msgid "%(icon)s Administration"
+msgstr "%(icon)s การบริหารจัดการ"
+
+#: invenio_administration/menu/menu.py:124
+msgid "Item should be MenuItem instance."
+msgstr "รายการต้องเป็น instance ของ MenuItem"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/base.html:24
+msgid "Side menu"
+msgstr "เมนูด้านข้าง"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/index.html:15
+#: invenio_administration/templates/semantic-ui/invenio_administration/index.html:27
+#, python-brace-format
+msgid "Welcome to {sitename} Administration"
+msgstr "ยินดีต้อนรับสู่การบริหารจัดการ {sitename}"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/index.html:28
+msgid "My managment tool"
+msgstr "เครื่องมือจัดการของฉัน"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/macros.html:11
+msgid "Back"
+msgstr "กลับ"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/search.html:24
+msgid "Create"
+msgstr "สร้าง"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:14
+msgid "Home navigation"
+msgstr "การนำทางหน้าหลัก"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:16
+msgid "Back to front page"
+msgstr "กลับไปหน้าหลัก"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:40
+msgid "Menu"
+msgstr "เมนู"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:58
+msgid "Close menu"
+msgstr "ปิดเมนู"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:67
+msgid "Administration dashboard"
+msgstr "แดชบอร์ดการบริหารจัดการ"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header.html:69
+#: invenio_administration/views/dashboard.py:20
+#: invenio_administration/views/dashboard.py:21
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:13
+msgid "Log in"
+msgstr "เข้าสู่ระบบ"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:17
+msgid "Sign up"
+msgstr "สมัครสมาชิก"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:30
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:71
+msgid "My account"
+msgstr "บัญชีของฉัน"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:65
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:94
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/header_login.html:101
+msgid "Log out"
+msgstr "ออกจากระบบ"
+
+#: invenio_administration/templates/semantic-ui/invenio_administration/header/side_bar_toggle.html:6
+msgid "Toggle side menu"
+msgstr "เปิด/ปิดเมนูด้านข้าง"
+
+#: invenio_administration/views/base.py:264
+msgid "Resource details"
+msgstr "รายละเอียดทรัพยากร"
+
+#: invenio_administration/views/base.py:326
+msgid "Edit resource"
+msgstr "แก้ไขทรัพยากร"
+
+#: invenio_administration/views/base.py:333
+msgid "Create resource"
+msgstr "สร้างทรัพยากร"
